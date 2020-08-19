@@ -1,0 +1,145 @@
+h1,h2,h3,h4,p,div{
+    color: aliceblue;
+    text-align: center;
+}
+a{
+    color: cyan;
+}
+
+body{
+  background:#3B5998
+}
+.face-load{
+  display:flex;
+  width:220px;
+  margin:4% auto
+}
+.face-load div{
+  width:6px;
+  height:60px;
+  background:#fff;
+  margin-right:2px
+}
+@keyframes face-load {
+    0%,100% {
+        transform: scaley(1);
+        opacity:1
+    }
+    50% {
+        transform: scaley(.4);
+       opacity:0.1
+    }
+}
+
+
+.face-load>div:nth-child(1) {
+    animation: face-load 3s -.9s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(2) {
+    animation: face-load 3s -.8s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(3) {
+    animation: face-load 3s -.7s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(4) {
+    animation: face-load 3s -.6s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(5) {
+    animation: face-load 3s -.5s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(6) {
+    animation: face-load 3s -.4s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(7) {
+    animation: face-load 3s -.3s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(8) {
+    animation: face-load 3s -.2s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(9) {
+    animation: face-load 3s -.1s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(10) {
+    animation: face-load 3s -.9s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(11) {
+    animation: face-load 3s -.8s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(12) {
+    animation: face-load 3s -.7s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(13) {
+    animation: face-load 3s -.6s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(14) {
+    animation: face-load 3s -.5s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(15) {
+    animation: face-load 3s -.4s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(16) {
+    animation: face-load 3s -.3s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(17) {
+    animation: face-load 3s -.2s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(18) {
+    animation: face-load 3s -.1s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(19) {
+    animation: face-load 3s -.9s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(20) {
+    animation: face-load 3s -.8s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(21) {
+    animation: face-load 3s -.7s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(22) {
+    animation: face-load 3s -.6s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(23) {
+    animation: face-load 3s -.5s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(24) {
+    animation: face-load 3s -.4s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(25) {
+    animation: face-load 3s -.3s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(26) {
+    animation: face-load 3s -.2s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div:nth-child(27) {
+    animation: face-load 3s -.1s infinite cubic-bezier(.2,.68,.18,1.08)
+}
+
+.face-load>div {
+    animation-fill-mode: both
+}
